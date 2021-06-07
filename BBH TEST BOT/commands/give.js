@@ -15,7 +15,7 @@ module.exports = {
   description: "give a player some points",
   async execute(client, message, args, Discord, profileData) {
       
-    if (!message.member.roles.cache.has('825153810258984970')) return message.channel.send("You don't have the permission to use this command! :thumbsdown: ");
+    if (!message.member.roles.cache.has('842914940493889580')) return message.channel.send("You don't have the permission to use this command! :thumbsdown: ");
     else {
         message.channel.send("You have the right permissions :thumbsup: ")
     }
